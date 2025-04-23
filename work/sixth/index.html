@@ -23,7 +23,6 @@
         method: 'GET'
       }).done(function(res) {
         let monsterInfo = res.species.url;
-        console.log(res.species.url);
         let monsterImage = res.sprites.front_default;
         $.ajax({
           url: monsterInfo,
